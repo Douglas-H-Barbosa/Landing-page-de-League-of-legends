@@ -325,10 +325,6 @@ footer .center{
         height: auto;
         padding: 3px 0;
     }
-    
-    .header img{
-        width: 120px;
-    }
 
     .container-banner{
         height: auto;
@@ -363,7 +359,8 @@ footer .center{
         margin-top: 0;
         margin-bottom: 20px;
         padding: 15px;
-        background: rgba(255, 123, 0, 0.377);
+        background: rgba(255, 123, 0, 0.425);
+        font-weight: bold;
 
     }
 
@@ -374,7 +371,10 @@ footer .center{
 
 @media screen and (max-width: 768px){
 
-    
+    .container-banner{
+    background-position-y: -190px;
+
+    }
 
     .container-att .atualizacao-single{
         margin: 10px;
@@ -395,6 +395,8 @@ footer .center{
         text-align: center;
         display: inline-block;
     }
+
+    footer {
+        line-height: 33px;
+    }
 }
-
-

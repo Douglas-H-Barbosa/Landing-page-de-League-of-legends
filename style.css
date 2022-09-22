@@ -27,7 +27,7 @@ html, body{
 }
 
 .header img{
-    width: 120px;
+    width: 73px;
     margin: 1px;
 }
 
@@ -324,6 +324,10 @@ footer .center{
         text-align: center;
         height: auto;
         padding: 3px 0;
+    }
+    
+    .header img{
+        width: 120px;
     }
 
     .container-banner{
